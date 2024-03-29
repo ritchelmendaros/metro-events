@@ -1,0 +1,82 @@
+.landing-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #051529; 
+    background-image: url("/public/bgf.png");
+    position: relative;
+}
+
+.logo-container {
+    margin-bottom: 0px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* .right-container {
+    height: 100%;
+    width: 50%;
+  } */
+.right-image {
+    width: 80%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+}
+.image {
+    width: 500px; 
+    /* margin-right: 50px; */
+}
+
+.buttonContainer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+}
+
+.get-started-btn {
+    background-color: #fff;
+    color: #051529;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-family: 'League Spartan', sans-serif;
+    
+}
+
+.get-started-btn:hover {
+    background-color: #A6A6A6;
+    color: #051529;
+    animation: morph 1s ease-in-out;
+}
+@keyframes morph {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  
